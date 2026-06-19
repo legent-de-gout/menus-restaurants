@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Légende de Goût – Menu 2026</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Jost:wght@300;400;500;600&family=Cormorant:ital,wght@1,400;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════════
+     INTRO SCREEN
+══════════════════════════════════════ -->
+  <div id="intro">
+    <div class="i-eye">Restaurant &amp; Traiteur — 2026</div>
+    <div class="i-script">Le Menu</div>
+    <div class="i-name">Légende de Goût</div>
+    <div class="i-bar">
+      <div class="i-fill"></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     NAV
+══════════════════════════════════════ -->
+  <nav id="topnav">
+    <a class="nlg" href="#hero">
+      <div class="nlg-ic">Lg</div>
+      <div class="nlg-tx">Légende de Goût<small>Traiteur — Maroc</small></div>
+    </a>
+    <div class="npills">
+      <button class="np on" onclick="goTo('hero')">🏠 Accueil</button>
+      <button class="np" onclick="goTo('petdej')">☕ Petit-Déj</button>
+      <button class="np" onclick="goTo('salades')">🥗 Salades</button>
+      <button class="np" onclick="goTo('plats')">🍖 Plats</button>
+      <button class="np" onclick="goTo('snacks')">🍔 Snacks</button>
+      <button class="np" onclick="goTo('pizzas')">🍕 Pizzas</button>
+      <button class="np" onclick="goTo('boissons')">🥤 Boissons</button>
+      <button class="np" onclick="goTo('desserts')">🍰 Desserts</button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+     SIDE NAVIGATION DOTS
+══════════════════════════════════════ -->
+  <div id="sdots">
+    <div class="sd on" data-s="hero" onclick="goTo('hero')"><span class="sd-tip">Accueil</span></div>
+    <div class="sd" data-s="petdej" onclick="goTo('petdej')"><span class="sd-tip">Petit-Déjeuner</span></div>
+    <div class="sd" data-s="salades" onclick="goTo('salades')"><span class="sd-tip">Salades</span></div>
+    <div class="sd" data-s="plats" onclick="goTo('plats')"><span class="sd-tip">Nos Plats</span></div>
+    <div class="sd" data-s="snacks" onclick="goTo('snacks')"><span class="sd-tip">Snacks &amp; Burgers</span></div>
+    <div class="sd" data-s="pizzas" onclick="goTo('pizzas')"><span class="sd-tip">Pizzas &amp; Pâtes</span></div>
+    <div class="sd" data-s="boissons" onclick="goTo('boissons')"><span class="sd-tip">Boissons</span></div>
+    <div class="sd" data-s="desserts" onclick="goTo('desserts')"><span class="sd-tip">Desserts</span></div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+  <div id="hero" data-s="hero">
+    <div class="hero">
+      <div class="hbg"></div>
+      <div class="hov"></div>
+      <div class="hct">
+        <div class="h-eye">Restaurant &amp; Traiteur — Cuisine Marocaine &amp; Internationale</div>
+        <div class="h-sc"><em>Le</em> Menu</div>
+        <div class="h-sub">Légende &nbsp;·&nbsp; de &nbsp;·&nbsp; Goût</div>
+        <div class="h-div"><span>✦</span></div>
+        <div class="h-bdg">
+          <div class="bl">
+            <div class="lbl">Chaque jour</div>
+            <div class="vl">Plat du Jour</div>
+          </div>
+          <div class="pr">60<sup>Dh</sup></div>
+        </div>
+      </div>
+      <div class="hscr">Découvrir</div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     PETIT-DÉJEUNER
+══════════════════════════════════════ -->
+  <div id="petdej" data-s="petdej" style="background:var(--cream)">
+    <div class="sec-wrap">
+
+      <div class="sh">
+        <div class="sh-l">
+          <span class="sh-sup fi">Chaque matin</span>
+          <h2 class="sh-title fi d1">Petit-Déjeuner</h2>
+        </div>
+        <span class="sh-ct fi">4 formules</span>
+      </div>
+
+      <div class="wcard fi" style="height:300px">
+        <img src="images/ftour.jpg"
+          alt="Petit-déjeuner marocain">
+        <div class="wcard-body">
+          <div class="wc-name">Formules Petit-Déjeuner</div>
+          <div class="wc-desc">Simple · Marocaine · Fassi · Narjisse — Choisissez votre formule du matin</div>
+        </div>
+      </div>
+
+      <div class="g4">
+        <div class="bfc fi d1">
+          <div class="ci"><img src="images/simple.jpg" alt="Simple"></div>
+          <div class="bfc-hd">
+            <div class="bfc-title">Simple</div>
+            <div class="bfc-price">24 Dh</div>
+          </div>
+          <div class="bfc-body">
+            <div class="bfc-desc">Boisson chaude · Viennoiseries · Jus d'orange</div>
+          </div>
+        </div>
+        <div class="bfc fi d2">
+          <div class="ci"><img src="images/Marrakech breakfast in Riad Hotel.jpg" alt="Marocaine"></div>
+          <div class="bfc-hd">
+            <div class="bfc-title">Marocaine</div>
+            <div class="bfc-price">30 Dh</div>
+          </div>
+          <div class="bfc-body">
+            <div class="bfc-desc">Semoule · Boisson chaude · Pain complet · Meloui · Harcha · Fromage · Huile d'olives ·
+              Miel · Olive noir · Jus d'orange</div>
+          </div>
+        </div>
+        <div class="bfc fi d3">
+          <div class="ci"><img src="images/Breakfast Moroccan edition.jpg" alt="Fassi">
+          </div>
+          <div class="bfc-hd">
+            <div class="bfc-title">Fassi</div>
+            <div class="bfc-price">34 Dh</div>
+          </div>
+          <div class="bfc-body">
+            <div class="bfc-desc">Semoule · Boisson chaude · Tajine œufs aux khlii · Pain complet · Jus d'orange</div>
+          </div>
+        </div>
+        <div class="bfc fi d4">
+          <div class="ci"><img src="images/narjiss.jpg" alt="Narjisse"></div>
+          <div class="bfc-hd">
+            <div class="bfc-title">Narjisse</div>
+            <div class="bfc-price">32 Dh</div>
+          </div>
+          <div class="bfc-body">
+            <div class="bfc-desc">Semoule · Boisson chaude · Omelette · Jben · Huile d'olives · Olive noir · Pain
+              complet · Jus d'orange</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>À la carte</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/Pain au chocolat.jpg" alt="Viennoiseries"></div>
+          <div class="card-b">
+            <div class="cn">Viennoiseries</div>
+            <div class="cf"><span class="cp">6 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/Msemen _ Moroccan Breakfast Bread _ butfirstchai_com.jpg" alt="Meloui"></div>
+          <div class="card-b">
+            <div class="cn">Meloui</div>
+            <div class="cf"><span class="cp">6 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/Harcha au yaourt.jpg" alt="Harcha"></div>
+          <div class="card-b">
+            <div class="cn">Harcha</div>
+            <div class="cf"><span class="cp">6 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="pills fi">
+        <div class="pill">Olive noir <b>5 Dh</b></div>
+        <div class="pill">Huile d'olive <b>5 Dh</b></div>
+        <div class="pill">Jben <b>5 Dh</b></div>
+      </div>
+
+      <div class="dv fi"><span>Pâtisseries &amp; Tartes</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/Caramel Birthday Cake.jpg" alt="Caramel"></div>
+          <div class="card-b">
+            <div class="cn">Tranche Caramel</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/chocolat.jpg" alt="Chocolat"></div>
+          <div class="card-b">
+            <div class="cn">Tranche Chocolat au Lait</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/choco noir.jpg" alt="Chocolat Noir"></div>
+          <div class="card-b">
+            <div class="cn">Tranche Chocolat Noir</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/praline.jpg" alt="Praliné"></div>
+          <div class="card-b">
+            <div class="cn">Tranche Praliné</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="images/mille feuille.jpg" alt="Mille-feuille"></div>
+          <div class="card-b">
+            <div class="cn">Mille-feuille</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d6">
+          <div class="ci"><img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=500&q=80"
+              alt="Tarte Fruit"></div>
+          <div class="card-b">
+            <div class="cn">Tarte Fruit / Amandes / Noix / Citron</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     SALADES
+══════════════════════════════════════ -->
+  <div id="salades" data-s="salades" style="background:var(--white)">
+    <div class="sec-wrap">
+
+      <div class="sh">
+        <div class="sh-l">
+          <span class="sh-sup fi">Fraîches &amp; Généreuses</span>
+          <h2 class="sh-title fi d1">Nos Salades</h2>
+        </div>
+        <span class="sh-ct fi">5 salades</span>
+      </div>
+
+      <div class="wcard fi">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1300&q=85" alt="Salade du Chef">
+        <div class="wcard-body">
+          <div class="wc-name">Salade du Chef ★</div>
+          <div class="wc-desc">Laitues · Légumes · Thon · Riz · Maïs · Œufs · Fromage · Olives · Cornichon</div>
+          <div class="wc-foot"><span class="wc-price">30 Dh</span><span class="chip chip-g">Recommandée</span></div>
+        </div>
+      </div>
+
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/salade marocain.jpg" alt="Marocaine"></div>
+          <div class="card-b">
+            <div class="cn">Salade Marocaine</div>
+            <div class="cd">Laitues · Tomates · Oignons · Thon · Œufs · Olives</div>
+            <div class="cf"><span class="cp">25 <span>Dh</span></span><span class="chip chip-n">Classique</span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/salade nicoise.jpg" alt="Niçoise"></div>
+          <div class="card-b">
+            <div class="cn">Salade Niçoise</div>
+            <div class="cd">Laitues · Légumes · Thon · Œufs · Olives · Cornichon</div>
+            <div class="cf"><span class="cp">28 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="https://images.unsplash.com/photo-1529059997568-3d847b1154f0?w=500&q=80"
+              alt="Narjisse"></div>
+          <div class="card-b">
+            <div class="cn">Salade Narjisse</div>
+            <div class="cd">Laitues · Ananas · Charcuterie · Ricotta · Crevettes · Œufs · Maïs · Fromage · Olives</div>
+            <div class="cf"><span class="cp">38 <span>Dh</span></span><span class="chip chip-n">Spéciale</span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/Salade Hawaïenne.jpg" alt="Hawaïenne"></div>
+          <div class="card-b">
+            <div class="cn">Salade Hawaïenne</div>
+            <div class="cd">Laitues · Riz · Pomme · Ananas · Maïs · Raisins secs · Tomate · Olive · Noix · Pêche</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span><span class="chip chip-o">Exotique</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     PLATS
+══════════════════════════════════════ -->
+  <div id="plats" data-s="plats" style="background:var(--cream)">
+    <div class="sec-wrap">
+
+      <div class="sh">
+        <div class="sh-l">
+          <span class="sh-sup fi">Grillés &amp; Mijotés</span>
+          <h2 class="sh-title fi d1">Nos Plats</h2>
+        </div>
+        <span class="sh-ct fi">11 plats</span>
+      </div>
+
+     
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/escalope de dinde farci.jpg" alt="Escalope"></div>
+          <div class="card-b">
+            <div class="cn">Escalope de Dinde Farcie</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">48 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/emince de poulet.jpg" alt="Émincés Poulet"></div>
+          <div class="card-b">
+            <div class="cn">Émincés de Poulet</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">48 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/emince de boeuf.jpg" alt="Émincés Bœuf"></div>
+          <div class="card-b">
+            <div class="cn">Émincés de Bœuf</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">55 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=500&q=80"
+              alt="Émincés Mixtes"></div>
+          <div class="card-b">
+            <div class="cn">Émincés Mixtes</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">55 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="images/brochette de dinde.jpg" alt="Brochettes Dinde"></div>
+          <div class="card-b">
+            <div class="cn">Brochettes de Dinde</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">45 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d6">
+          <div class="ci"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80"
+              alt="Brochettes Mixtes"></div>
+          <div class="card-b">
+            <div class="cn">Brochettes Mixtes</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">55 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d7">
+          <div class="ci"><img src="images/brochette filet de bouef.jpg" alt="Brochettes Filet Bœuf"></div>
+          <div class="card-b">
+            <div class="cn">Brochettes Filet de Bœuf</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">75 <span>Dh</span></span><span class="chip chip-o">Prestige</span></div>
+          </div>
+        </div>
+        <div class="card fi d8">
+          <div class="ci"><img src="images/poulet a la romain.jpg" alt="Poulet Romaine"></div>
+          <div class="card-b">
+            <div class="cn">Poulet à la Romaine</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">48 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d1">
+          <div class="ci"><img src="images/steak de veau.jpg" alt="Steak Veau"></div>
+          <div class="card-b">
+            <div class="cn">Steak de Veau Grillé</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">50 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/filet poisson en sauce.jpg" alt="Filet Poisson Sauce"></div>
+          <div class="card-b">
+            <div class="cn">Filet Poisson en Sauce</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">80 <span>Dh</span></span><span class="chip chip-o">Premium</span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/filet poisson griller.jpg" alt="Filet Poisson Grillé"></div>
+          <div class="card-b">
+            <div class="cn">Filet Poisson Grillé</div>
+            <div class="cd">+ Garnitures au choix</div>
+            <div class="cf"><span class="cp">75 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pills fi">
+        <div class="pill">Frites <b>12 Dh</b></div>
+        <div class="pill">Riz <b>12 Dh</b></div>
+        <div class="pill">Légumes sautés <b>12 Dh</b></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     SNACKS – BURGERS · SANDWICHS · PANINIS · TACOS
+══════════════════════════════════════ -->
+  <div id="snacks" data-s="snacks" style="background:var(--white)">
+    <div class="sec-wrap">
+
+      <div class="sh">
+        <div class="sh-l">
+          <span class="sh-sup fi">Street Food &amp; Snacks</span>
+          <h2 class="sh-title fi d1">Burgers, Sandwichs &amp; Tacos</h2>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>Nos Hamburgers</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/ham simple.jpg" alt="Hamburger Simple"></div>
+          <div class="card-b">
+            <div class="cn">Hamburger Simple</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">32 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/cheese burger.jpg" alt="Cheeseburger"></div>
+          <div class="card-b">
+            <div class="cn">Cheeseburger</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">35 <span>Dh</span></span><span class="chip chip-g">Top ⭐</span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/egges burger.jpg" alt="Egg Cheese"></div>
+          <div class="card-b">
+            <div class="cn">Egg's Cheese</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">35 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/chiken burger.jpg" alt="Chicken Burger"></div>
+          <div class="card-b">
+            <div class="cn">Chicken Burger</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">35 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>Nos Sandwichs</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/san saucisse.jpg" alt="Sandwich Saucisses"></div>
+          <div class="card-b">
+            <div class="cn">Sandwich Saucisses</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/san vh.jpg" alt="Sandwich Viande"></div>
+          <div class="card-b">
+            <div class="cn">Sandwich Viande Hachée</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/san poulet.jpg" alt="Sandwich Poulet"></div>
+          <div class="card-b">
+            <div class="cn">Sandwich Poulet</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/san dinde.jpg" alt="Sandwich Dinde"></div>
+          <div class="card-b">
+            <div class="cn">Sandwich Dinde</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="images/san mixte.jpg" alt="Sandwich Mixte"></div>
+          <div class="card-b">
+            <div class="cn">Sandwich Mixte</div>
+            <div class="cd">Avec Frites</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>Nos Paninis</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/p.poulet.png"
+              alt="Panini Poulet"></div>
+          <div class="card-b">
+            <div class="cn">Panini Poulet</div>
+            <div class="cd">Tomate fraîche · Poulet · Fromage · Frites</div>
+            <div class="cf"><span class="cp">35 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/p.v.png"
+              alt="Panini Viande"></div>
+          <div class="card-b">
+            <div class="cn">Panini Viande Hachée</div>
+            <div class="cd">Tomate fraîche · Viande Hachée · Fromage · Frites</div>
+            <div class="cf"><span class="cp">35 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/p.char.png"
+              alt="Panini Charcuterie"></div>
+          <div class="card-b">
+            <div class="cn">Panini Charcuterie</div>
+            <div class="cd">Tomate fraîche · Jambon de dinde · Fromage · Frites</div>
+            <div class="cf"><span class="cp">35 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/p.thon.png"
+              alt="Panini Thon"></div>
+          <div class="card-b">
+            <div class="cn">Panini Thon</div>
+            <div class="cd">Tomate fraîche · Thon · Fromage · Frites</div>
+            <div class="cf"><span class="cp">35 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="images/p.mixte.png"
+              alt="Panini Mixte"></div>
+          <div class="card-b">
+            <div class="cn">Panini Mixte</div>
+            <div class="cd">Tomate fraîche · Viande hachée · Poulet · Fromage · Frites</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span><span class="chip chip-o">Spécial</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>Nos Tacos</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/t.poulet.jpg"
+              alt="Tacos Poulet"></div>
+          <div class="card-b">
+            <div class="cn">Tacos Poulet</div>
+            <div class="cf"><span class="cp">45 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/t.v.jpg"
+              alt="Tacos Viande"></div>
+          <div class="card-b">
+            <div class="cn">Tacos Viande Hachée</div>
+            <div class="cf"><span class="cp">45 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/t.mixte.jpg"
+              alt="Tacos Mixte"></div>
+          <div class="card-b">
+            <div class="cn">Tacos Mixte</div>
+            <div class="cf"><span class="cp">45 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/t.nugget.jpg"
+              alt="Tacos Neguettes"></div>
+          <div class="card-b">
+            <div class="cn">Tacos Neguettes</div>
+            <div class="cf"><span class="cp">45 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="pills fi">
+        <div class="pill">Sauce <b>8 Dh</b></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     PIZZAS & PÂTES
+══════════════════════════════════════ -->
+  <div id="pizzas" data-s="pizzas" style="background:var(--cream)">
+    <div class="sec-wrap">
+
+      <div class="sh">
+        <div class="sh-l">
+          <span class="sh-sup fi">Four &amp; Passion</span>
+          <h2 class="sh-title fi d1">Pizzas &amp; Pâtes</h2>
+        </div>
+        <span class="sh-ct fi">13 plats</span>
+      </div>
+
+   
+
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=80"
+              alt="Margaritta"></div>
+          <div class="card-b">
+            <div class="cn">Pizza Margaritta</div>
+            <div class="cd">Tomates · Fromage · Olives</div>
+            <div class="cf"><span class="cp">38 <span>Dh</span></span><span class="chip chip-g">Végé</span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/pizza.v.jpg"
+              alt="Végétarienne"></div>
+          <div class="card-b">
+            <div class="cn">Pizza Végétarienne</div>
+            <div class="cd">Tomates · Fromage · Poivrons · Oignons · Champignons · Olives</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span><span class="chip chip-g">Végé</span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/pizza.thon.jpg"
+              alt="Thonna"></div>
+          <div class="card-b">
+            <div class="cn">Pizza Thonna</div>
+            <div class="cd">Tomates · Fromage · Thon · Olives</div>
+            <div class="cf"><span class="cp">45 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/p.viand hachee.jpg"
+              alt="Bolonaise"></div>
+          <div class="card-b">
+            <div class="cn">Pizza Bolonaise</div>
+            <div class="cd">Tomates · Fromage · Viande hachée · Champignons · Poivrons · Olives</div>
+            <div class="cf"><span class="cp">48 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="images/pizza.p.jpg"
+              alt="Chicken"></div>
+          <div class="card-b">
+            <div class="cn">Pizza Chicken</div>
+            <div class="cd">Tomates · Fromage · Poulet · Poivrons · Champignons · Olives</div>
+            <div class="cf"><span class="cp">48 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d6">
+          <div class="ci"><img src="images/p.fruit de mer.jpg"
+              alt="Fruit de Mer"></div>
+          <div class="card-b">
+            <div class="cn">Pizza Fruit de Mer</div>
+            <div class="cd">Tomates · Crevettes · Calamar · Fromage</div>
+            <div class="cf"><span class="cp">65 <span>Dh</span></span><span class="chip chip-o">Prestige</span></div>
+          </div>
+        </div>
+        <div class="card fi d7">
+          <div class="ci"><img src="images/pizza.mixte.jpg"
+              alt="Du Chef"></div>
+          <div class="card-b">
+            <div class="cn">Pizza du Chef</div>
+            <div class="cd">Tomates · V. hachée · Poulet · Jambon dinde · Crevettes · Olives · Poivrons · Champignons
+            </div>
+            <div class="cf"><span class="cp">60 <span>Dh</span></span><span class="chip chip-g">Chef ★</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>Pâtes &amp; Couscous</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/tagliatelle.fruit .jpg"
+              alt="Fruits de Mer"></div>
+          <div class="card-b">
+            <div class="cn">Tagliatelle Fruits de Mer</div>
+            <div class="cf"><span class="cp">50 <span>Dh</span></span><span class="chip chip-o">Mer</span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/tagliatelle.bolo.jpg"
+              alt="Bolognaise"></div>
+          <div class="card-b">
+            <div class="cn">Tagliatelle Bolognaise</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/spag.bolo.jpg"
+              alt="Spaghetti Bolo"></div>
+          <div class="card-b">
+            <div class="cn">Spaghettis Bolognaise</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/spag.thon.jpg"
+              alt="Spaghetti Thon"></div>
+          <div class="card-b">
+            <div class="cn">Spaghettis Thonna</div>
+            <div class="cf"><span class="cp">40 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="images/couscous.viande.jpg"
+              alt="Couscous Viande"></div>
+          <div class="card-b">
+            <div class="cn">Couscous Viande <span class="vt">Vendredi</span></div>
+            <div class="cf"><span class="cp">50 <span>Dh</span></span><span class="chip chip-g">Tradition</span></div>
+          </div>
+        </div>
+        <div class="card fi d6">
+          <div class="ci"><img src="images/couscous.po.jpg"
+              alt="Couscous Poulet"></div>
+          <div class="card-b">
+            <div class="cn">Couscous Poulet <span class="vt">Vendredi</span></div>
+            <div class="cf"><span class="cp">45 <span>Dh</span></span><span class="chip chip-g">Tradition</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="kids fi">
+        <div class="kids-ic">🧒🏻</div>
+        <div class="kids-tx">
+          <h3>Kids Menu</h3>
+          <p>🍔 Hamburger · Frite · Boisson · Yaourt<br>🍕 Pizza · Boisson · Yaourt</p>
+        </div>
+        <div class="kids-pr">40 Dh</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     BOISSONS
+══════════════════════════════════════ -->
+  <div id="boissons" data-s="boissons" style="background:var(--white)">
+    <div class="sec-wrap">
+
+      <div class="sh">
+        <div class="sh-l">
+          <span class="sh-sup fi">Chauds &amp; Froids</span>
+          <h2 class="sh-title fi d1">Boissons</h2>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>Boissons Chaudes</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/cafe espresso.jpg"
+              alt="Espresso"></div>
+          <div class="card-b">
+            <div class="cn">Café Espresso <small style="color:var(--orange);font-size:.7rem">(Capsule)</small></div>
+            <div class="cf"><span class="cp">16 <span>Dh</span></span><span class="chip chip-o">Premium</span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/cafe noir.jpg"
+              alt="Café Noir"></div>
+          <div class="card-b">
+            <div class="cn">Café Noir</div>
+            <div class="cf"><span class="cp">13 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/cafe au lait.jpg"
+              alt="Café au Lait"></div>
+          <div class="card-b">
+            <div class="cn">Café Au Lait</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/cappuccino.vien.jpg"
+              alt="Cappuccino Viennois"></div>
+          <div class="card-b">
+            <div class="cn">Cappuccino Viennois</div>
+            <div class="cf"><span class="cp">19 <span>Dh</span></span><span class="chip chip-g">⭐ Spécial</span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&q=80"
+              alt="Cappuccino"></div>
+          <div class="card-b">
+            <div class="cn">Cappuccino Italien / Aromatisés</div>
+            <div class="cf"><span class="cp">18 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d6">
+          <div class="ci"><img src="images/the.maroc.jpg"
+              alt="Thé Marocain"></div>
+          <div class="card-b">
+            <div class="cn">Thé Marocain</div>
+            <div class="cf"><span class="cp">12 <span>Dh</span></span><span class="chip chip-n">Tradition</span></div>
+          </div>
+        </div>
+        <div class="card fi d7">
+          <div class="ci"><img src="images/the noir.jpg"
+              alt="Thé Noir"></div>
+          <div class="card-b">
+            <div class="cn">Thé Noir / Verveine</div>
+            <div class="cf"><span class="cp">12 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d8">
+          <div class="ci"><img src="images/choaco.chaud.jpg"
+              alt="Chocolat Chaud"></div>
+          <div class="card-b">
+            <div class="cn">Chocolat Chaud</div>
+            <div class="cf"><span class="cp">18 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="lst fi">
+        <div class="li">
+          <div class="li-nm">Café Allongé</div>
+          <div class="li-dt"></div>
+          <div class="li-pr">15 Dh</div>
+        </div>
+        <div class="li">
+          <div class="li-nm">Café Séparé</div>
+          <div class="li-dt"></div>
+          <div class="li-pr">15 Dh</div>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>Nos Jus Frais</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/jus dorange.jpg"
+              alt="Jus Orange"></div>
+          <div class="card-b">
+            <div class="cn">Jus d'Orange</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/jus banan.jpg"
+              alt="Jus Banane"></div>
+          <div class="card-b">
+            <div class="cn">Jus de Banane</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/jus pomme.jpg"
+              alt="Jus Pomme"></div>
+          <div class="card-b">
+            <div class="cn">Jus de Pomme</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/jus avocat.jpg"
+              alt="Jus Avocat"></div>
+          <div class="card-b">
+            <div class="cn">Jus d'Avocat</div>
+            <div class="cf"><span class="cp">20 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="images/jus fraise.jpg"
+              alt="Jus Fraise"></div>
+          <div class="card-b">
+            <div class="cn">Jus de Fraise</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d6">
+          <div class="ci"><img src="images/Jus Citron Gingembre.jpg"
+              alt="Citron Gingembre"></div>
+          <div class="card-b">
+            <div class="cn">Jus Citron Gingembre</div>
+            <div class="cf"><span class="cp">15 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d7">
+          <div class="ci"><img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=500&q=80"
+              alt="Panaché"></div>
+          <div class="card-b">
+            <div class="cn">Panaché (Lait ou Orange)</div>
+            <div class="cf"><span class="cp">20 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dv fi"><span>Boissons Froides</span></div>
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/canette33.jpg"
+              alt="Canette"></div>
+          <div class="card-b">
+            <div class="cn">Canettes 33ml (au choix)</div>
+            <div class="cf"><span class="cp">9 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/eau.jpg"
+              alt="Eau Minérale"></div>
+          <div class="card-b">
+            <div class="cn">Eau Minérale ½ L / 1.5 L</div>
+            <div class="cf"><span class="cp">6–9 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/oulmes.jpg"
+              alt="Oulmès"></div>
+          <div class="card-b">
+            <div class="cn">Oulmès / Canettes Slime</div>
+            <div class="cf"><span class="cp">6–9 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     DESSERTS
+══════════════════════════════════════ -->
+  <div id="desserts" data-s="desserts" style="background:var(--cream)">
+    <div class="sec-wrap">
+
+      <div class="sh">
+        <div class="sh-l">
+          <span class="sh-sup fi">Pour finir en beauté</span>
+          <h2 class="sh-title fi d1">Nos Desserts</h2>
+        </div>
+        <span class="sh-ct fi">5 desserts</span>
+      </div>
+
+      <div class="g3">
+        <div class="card fi d1">
+          <div class="ci"><img src="images/salade fruit.jpg"
+              alt="Salade Fruits"></div>
+          <div class="card-b">
+            <div class="cn">Salade de Fruits</div>
+            <div class="cf"><span class="cp">18 <span>Dh</span></span><span class="chip chip-g">Frais</span></div>
+          </div>
+        </div>
+        <div class="card fi d2">
+          <div class="ci"><img src="images/creme caramel.jpg"
+              alt="Crème Caramel"></div>
+          <div class="card-b">
+            <div class="cn">Crème Caramel</div>
+            <div class="cf"><span class="cp">18 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d3">
+          <div class="ci"><img src="images/tiramisu.jpg"
+              alt="Tiramisu"></div>
+          <div class="card-b">
+            <div class="cn">Tiramisu</div>
+            <div class="cf"><span class="cp">18 <span>Dh</span></span><span class="chip chip-o">Italien</span></div>
+          </div>
+        </div>
+        <div class="card fi d4">
+          <div class="ci"><img src="images/nouga.jpg"
+              alt="Nougat Glacé"></div>
+          <div class="card-b">
+            <div class="cn">Nougat Glacé</div>
+            <div class="cf"><span class="cp">18 <span>Dh</span></span></div>
+          </div>
+        </div>
+        <div class="card fi d5">
+          <div class="ci"><img src="images/glaces.jpg"
+              alt="Glaces"></div>
+          <div class="card-b">
+            <div class="cn">Glaces au Choix</div>
+            <div class="cf"><span class="cp">18 <span>Dh</span></span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     CONTACT BAR
+══════════════════════════════════════ -->
+  <div class="cbar fi">
+    <div class="cbar-t">Venez nous rendre visite ou contactez-nous</div>
+    <div class="cbar-links">
+      <a href="mailto:legendedegout@gmail.com">✉ legendedegout@gmail.com</a>
+      <a href="https://www.facebook.com/legendedegout/" target="_blank">📘 facebook.com/legendedegout</a>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+  <footer>
+    <div class="ft-sc">Le Menu</div>
+    <div class="ft-nm">Légende &nbsp;·&nbsp; de &nbsp;·&nbsp; Goût &nbsp;·&nbsp; Traiteur</div>
+    <div class="ft-lk">
+      <a href="mailto:legendedegout@gmail.com">legendedegout@gmail.com</a>
+      <a href="https://www.facebook.com/legendedegout/" target="_blank">facebook.com/legendedegout</a>
+    </div>
+    <div class="ft-cp">© 2026 Légende de Goût Traiteur — Tous droits réservés</div>
+  </footer>
+
+  <!-- ══════════════════════════════════════
+     SCRIPT
+══════════════════════════════════════ -->
+  <script src="script.js"></script>
+</body>
+
+</html>
